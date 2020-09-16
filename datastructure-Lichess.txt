@@ -1,0 +1,40 @@
+
+client.bots.stream_incoming_events():
+
+{'type': 'challenge', 
+'challenge': {'id': 'yWx60rVp', 'url': 'https://lichess.org/yWx60rVp', 'status': 'created', 
+              'challenger': 
+              {'id': 'patinside', 'name': 'patinside', 'title': None, 'rating': 1500, 'provisional': True, 'online': True, 'lag': 4}, 
+              'destUser': 
+              {'id': 'patinside_bot', 'name': 'patinside_bot', 'title': 'BOT', 'rating': 1500, 'provisional': True, 'online': True, 'lag': 4}, 
+              'variant': 
+              {'key': 'standard', 'name': 'Standard', 'short': 'Std'}, 
+              'rated': False, 
+              'speed': 'correspondence', 
+              'timeControl': {'type': 'unlimited'}, 
+              'color': 'random', 
+              'perf': {'icon': ';', 'name': 'Correspondence'}}}
+
+
+{'type': 'gameStart', 'game': {'id': 'yWx60rVp'}}
+
+stream_game_state:
+{'id': 'yWx60rVp', 
+	'variant': {'key': 'standard', 'name': 'Standard', 'short': 'Std'}, 
+	'clock': None, 'speed': 'correspondence', 'perf': {'name': 'Correspondence'}, 
+	'rated': False, 'createdAt': datetime.datetime(2020, 5, 31, 17, 15, 21, 347000, tzinfo=datetime.timezone.utc), 
+	'white': {'id': 'patinside', 'name': 'patinside', 'title': None, 'rating': 1500, 'provisional': True}, 
+	'black': {'id': 'patinside_bot', 'name': 'patinside_bot', 'title': 'BOT', 'rating': 1500, 'provisional': True}, 
+	'initialFen': 'startpos', 
+	'type': 'gameFull', 
+	'state': {'type': 'gameState', 'moves': 'e2e4', 'wtime': 2147483647, 'btime': 2147483647, 'winc': 0, 'binc': 0, 'wdraw': False, 'bdraw': False, 'status': 'started'}}
+
+
+{'id': 'xCcihmNq',
+ 'variant': {'key': 'standard', 'name': 'Standard', 'short': 'Std'},
+ 'clock': None,
+ 'speed': 'correspondence',
+ 'perf': {'name': 'Correspondence'},
+ 'rated': False,
+ 'createdAt': datetime.datetime(2020, 6, 8, 9, 58, 17, 958000, tzinfo=datetime.timezone.utc),
+ 'white': {'id': 'katethegreat33', 'name': 'katethegreat33', 'title': None, 'rating': 1500, 'provisional': True}, 'black': {'id': 'patinside_bot', 'name': 'patinside_bot', 'title': 'BOT', 'rating': 1500, 'provisional': True}, 'initialFen': 'startpos', 'type': 'gameFull', 'state': {'type': 'gameState', 'moves': '', 'wtime': 2147483647, 'btime': 2147483647, 'winc': 0, 'binc': 0, 'wdraw': False, 'bdraw': False, 'status': 'started'}}

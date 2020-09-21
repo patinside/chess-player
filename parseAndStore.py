@@ -25,7 +25,7 @@ while True:
     for move in game.mainline_moves():
         if (j%2==1):
             player = "white"
-            if(game.headers.get("WhiteElo").isdigit()):
+            if game.headers.get("WhiteElo").isdigit():
                 level = int(game.headers.get("WhiteElo"))//100
             elif(game.headers.get("BlackElo").isdigit()):
                 level = int(game.headers.get("BlackElo")) // 100
@@ -35,9 +35,9 @@ while True:
 
         else:
             player = "black"
-            if (game.headers.get("BlackElo").isdigit()):
+            if game.headers.get("BlackElo").isdigit():
                 level = int(game.headers.get("BlackElo")) // 100
-            elif (game.headers.get("WhiteElo").isdigit()):
+            elif game.headers.get("WhiteElo").isdigit():
                 level = int(game.headers.get("WhiteElo")) // 100
             else:
                 level = 0
